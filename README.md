@@ -32,7 +32,6 @@ Clone this directory to your local machine and navigate into the project folder.
 ### 2. Install Dependencies
 Run the following command to install the required packages (Axios):
 ```bash
-cd assignment
 npm install
 ```
 
@@ -41,14 +40,12 @@ You need to run the mock server and the aggregator script simultaneously.
 
 Terminal 1: Start the Server Navigate to the mock-api folder and start the server:
 ```bash
-cd assignment
 node server.js
 ```
 (Keep this terminal open. You should see "EnergyGrid Mock API running...")
 
 Terminal 2: Run the Aggregator Navigate to the root folder (energy-aggregator) and run the main script:
 ```bash
-cd assignment
 node index.js
 ```
 
